@@ -9,7 +9,7 @@ authors:
     given-names: Kijti
     affiliation: "Department of Mathematics, Faculty of Science, Naresuan University"
 license: MIT
-# version, date-released and doi: fill in when the release is archived on Zenodo
+repository-code: "https://github.com/fscilkk/star-forest-selfloop"
 preferred-citation:
   type: article
   title: "Inertia and energy of star-forest self-loop graphs"
