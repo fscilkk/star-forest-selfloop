@@ -1,0 +1,20 @@
+  [OK] number of members with 3 <= n <= 11: 539   (paper: 539)
+Theorem 7.1 for 0 < h <= 1 (h = 0.1, 0.2, ..., 1.0), all 539 members
+  [OK] violations of (i), (ii) or (iii): 0   (paper: 0)
+Sharpness: Gamma^h(0,0;2) has spectrum {h+1, h, h-1}
+  [OK] h = 0.5: [1.5, 0.5, -0.5]   (paper: [1.5, 0.5, -0.5])
+  [OK] h = 1.0: [2.0, 1.0, 0.0]   (paper: [2.0, 1.0, 0.0])
+  [OK] h = 1.5: [2.5, 1.5, 0.5]   (paper: [2.5, 1.5, 0.5])
+  [OK] h = 3.0: [4.0, 3.0, 2.0]   (paper: [4.0, 3.0, 2.0])
+  [OK] (i) and (ii) fail for Gamma^h(0,0;2) at h = 1.5: (False, False)   (paper: (False, False))
+  [OK] Gamma^h(0,0;1) = h I_2 satisfies (i), (ii) at h = 5: (True, True)   (paper: (True, True))
+After Theorem 7.1
+  [OK] members with n <= 10 violating (iii) at h = 1.001: 0   (paper: 0)
+  [OK] Gamma^h(0,4;2) violates (iii) at h = 2: True   (paper: True)
+Remark 7.2 (539 members with 3 <= n <= 11)
+  [OK] (i) still holds at h = 1.001: 54   (paper: 54)
+  [OK] (i) still holds at h = 1.5: 29   (paper: 29)
+Section 5.1: the secular procedure for Gamma^h (with mu_0 = n - 1 + max(h, 1))
+  [OK] largest |E_dense - E_secular| over n <= 11 and h in {0.3,0.7,1.3,2,4}: 2.5e-14   (paper: < 1e-12)
+
+all checks passed
